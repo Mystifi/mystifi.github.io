@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <title>Negative Exponent - Rules of Exponents</title>
+  </head>
+  <body>
+    <h1>Rules of Exponents Display</h1>
+    <h2>Negative Exponent</h2>
+    <hr>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="definitions.html">Definitions of Base and Exponent</a></li>
+      <li><a href="zero-exponent.html">Zero Exponent</a></li>
+      <li class="current-page"><a href="negative-exponent.html">Negative Exponent</a></li>
+      <li><a href="exponent-operations-same-base.html">Multiplying and Dividing Exponents, Same Base</a></li>
+      <li><a href="exponent-raised-another-exponent.html">Raising Exponents by Another Exponent</a></li>
+    </ul>
+    <hr>
+    <p>
+      If you're reading these in the order from top to bottom (as you probably should - I mean, that's how the layout is organised
+      in the little navigation area...), then you should have already learned about what bases and exponents are, as well as why
+      any number - as far as we know yet in the context of Algebra II/Trig :) - raised to the power of zero is equivalent to one.
+    </p>
+    <p>(P.S. Knowing the fundamentals of why \(a^0 = 1\) is <em>imperative</em> to understanding why this works the way it does.)</p>
+    <p>
+      The general rule is that \(a^-n = \frac{1}{a^n}\). I'll work a problem out before explaining why the zero exponent rule is so
+      important.
+    </p>
+    <p>
+      So, let's say you have the following expression: $$\frac{18w^4x^9}{14w^5x^5}$$ Again, if you've read about how dividing exponents
+      works (if not, then the page is in the navigation area), then you know that you subtract the bottom exponents from the top. Let's
+      simplify \(\frac{18}{14}\) before moving to simplifying the entire fraction: $$\frac{9w^4x^9}{7w^5x^5}$$ Following on from the
+      zero exponent page, we can rewrite this in the form of \(\frac{a^b}{a^c} = a^{b-c}\): $$\frac{9w^4x^9}{7w^5x^5} = \frac{9}{7}\cdot w^{4-5}x^{9-5}$$
+      Simplifying what's written in superscript, we have $$\frac{9w^4x^9}{7w^5x^5} = \frac{9}{7}\cdot w^{4-5}x^{9-5} = \frac{9}{7}\cdot w^-1x^4$$
+      Okay, we finally have that negative exponent. Remembering that \(a^-n = \frac{1}{a^n}\), then we rewrite this as such.
+      $$\frac{9}{7}\cdot w^-1x^4 = \frac{9}{7}\cdot \frac{w^4}{x^1}$$ Since anything raised to the power of itself is one, as well as the fact that
+      we're multiplying two fractions together, we can completely simplify this to the following equation. $$\frac{9}{7}\cdot \frac{w^4}{x^1} = \frac{9w^4}{7x}$$
+    </p>
+    <p>
+      This works for a very interesting reason. The zero exponent rule states that \(\frac{a^c}{a^c} = a^{c-c} = 1\). This is essentially
+      equivalent to \(a^ca^-c = 1\) in accordance with the rules of multiplying exponents. In order to simplify for \(a^-c\), we then divide
+      both sides of the equation by \(a^c\): $$\frac{a^-c}{a^c} = \frac{1}{a^c}$$ Which reduces to this: $$a^-c = \frac{1}{a^c}$$
+    </p>
+    <p><em>Et voilà !</em> A very simple - yet important - explanation on why this works.</p>
+  </body>
+</html>
